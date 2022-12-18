@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Appointment Scheduler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+
+  <!-- result will be displayed here -->
+  
+<div id="calendar">
+  <div id="calendar-header">
+    <button id="prev-month" onclick="prevMonth()">&lt;</button>
+    <div id="month-year"></div>
+    <button id="next-month" onclick="nextMonth()">&gt;</button>
+  </div>
+  <table id="calendar-grid">
+    <thead>
+      <tr>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+      </tr>
+    </thead>
+    <tbody id="calendar-body">
+      <!-- rows for each week of the month go here -->
+    </tbody>
+  </table>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
